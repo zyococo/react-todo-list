@@ -35,6 +35,7 @@ const App = () => {
     // console.log(name);
     setTodos((prevTodos) => {
       // console.log(prevTodos);
+      //check how to use uuidv4
       return [...prevTodos, { id: uuidv4(), name: name, completed: false }];
     });
     todoNameRef.current.value = null;
