@@ -1,6 +1,7 @@
 import "./App.css";
 import TodoList from "./TodoList";
 import { useState, useRef } from "react";
+//idをランダムに振る
 import { v4 as uuidv4 } from "uuid";
 
 import React from "react";
