@@ -8,7 +8,7 @@ import React from "react";
 
 const App = () => {
   // const [todos, setTodos] = useState(["Todo 1", "Todo 2"]);
-  const [todos, setTodos] = useState([]);
+  const [todos, setTodos] = useState([]); //To make the code above simple
 
   // //loading localstorage
   // useEffect(() => {
