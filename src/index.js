@@ -11,3 +11,5 @@ root.render(
     <App />
   </React.StrictMode>
 );
+
+// Shin code 再確認
