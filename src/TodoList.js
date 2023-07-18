@@ -7,4 +7,6 @@ const TodoList = ({ todos, toggleTodo }) => {
   ));
 };
 
+// index>App>TodoList>Todo
+
 export default TodoList;
