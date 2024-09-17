@@ -20,4 +20,5 @@ const Todo = ({ todo, toggleTodo }) => {
   );
 };
 
+
 export default Todo;
