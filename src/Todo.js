@@ -15,10 +15,10 @@ const Todo = ({ todo, toggleTodo }) => {
           onChange={handleTodoClick}
         />
       </label>
+
       {todo.name}
     </div>
   );
 };
-
 
 export default Todo;
