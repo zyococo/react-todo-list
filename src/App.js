@@ -50,8 +50,8 @@ const App = () => {
     <>
       <TodoList todos={todos} toggleTodo={toggleTodo} />
       <input type="text" name="" id="" ref={todoNameRef} />
-      <button onClick={handleAddTodo}>タスクの追加</button>
-      <button onClick={handleClear}>完了タスクの削除</button>
+      <button onClick={handleAddTodo}>Add a task</button>
+      <button onClick={handleClear}>Delete the completed task</button>
       <div>残りのタスク：{todos.filter((todo) => !todo.completed).length}</div>
     </>
   );
